@@ -1,0 +1,28 @@
+1. sort words > sorted_words.txt | diff -q words sorted_words.txt
+>>> Files words and sorted_words.txt differ
+
+Файлы различны из-за разницы в сортировке: 
+    в words сначала идут аббревиатуры, а затем слова. Команда sort
+    расставляет все записи по алфавиту начиная со строчных знаков.
+
+2.  wc -l words #количество строк
+>>>104334 words
+    wc -w words #количество слов
+>>>104334 words
+    wc -c words #количество cимволов
+>>>1089418 words
+
+3.  split words splited_# разбивка на файлы по 1000 строк с префиксом splited_
+    ls| grep ^splited | wc -l  # кол-во файлов с префиксом splited_
+>>>105
+    rm splited_* # удаление файлов с префиксом splited_
+
+4.  ls -lah --block-size=K words
+>>> -rw-r--r-- 0 HeadR 197609 1064K Mar 24 00:36 words
+    gzip words  #сжатие
+    ls -lah words.gz
+>>> -rw-r--r-- 0 HeadR 197609 262K Mar 24 00:36 words.gz
+
+1064/262=4.061.. #сжатый файл меньше в 4 раза
+
+5. cat words | tr a-z A-Z
