@@ -1,4 +1,6 @@
+#!/bin/bash
+
 for filename in ./results/data*
 do
-    echo $(basename "$filename")
+    sort "$filename" >  ./sorted/"$(basename $filename .txt)sorted.txt"
 done

@@ -1,0 +1,29 @@
+837|  o  oo ooooooo
+ 793|  ooooooooooooo
+ 749|  ooooooooooooo
+ 705|  ooooooooooooo
+ 661|  ooooooooooooo
+ 617|  ooooooooooooo
+ 573|  ooooooooooooo
+ 529|  ooooooooooooo
+ 485|  ooooooooooooo
+ 441|  ooooooooooooo
+ 397|  ooooooooooooo
+ 353|  ooooooooooooo
+ 309|  ooooooooooooo
+ 265|  ooooooooooooo
+ 221|  ooooooooooooo
+ 177|  ooooooooooooo
+ 133|  ooooooooooooo
+  89|  ooooooooooooo
+  45|  ooooooooooooo
+   1| oooooooooooooo
+     --------------
+
+--------------------------------------
+|              Summary               |
+--------------------------------------
+|        observations: 11481         |
+|        min value: 0.001393         |
+|          mean : 2.521725           |
+|        max value: 4.999989         |
